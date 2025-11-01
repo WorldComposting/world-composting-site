@@ -65,7 +65,6 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          {/* Logo & Branding */}
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-green-600 to-emerald-700 flex items-center justify-center text-white font-bold text-lg shadow-md">
               🌱
@@ -76,7 +75,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Navigation */}
           <nav className="hidden md:flex gap-8 text-sm font-medium">
             <Link href="/#videos" className="text-gray-700 hover:text-green-600 transition">Videos</Link>
             <Link href="/#blog" className="text-gray-700 hover:text-green-600 transition">Blog</Link>
@@ -84,7 +82,6 @@ export default function Home() {
             <Link href="/contact" className="text-gray-700 hover:text-green-600 transition">Contact</Link>
           </nav>
 
-          {/* Mobile Menu Toggle */}
           <button className="md:hidden text-gray-700">☰</button>
         </div>
       </header>
@@ -93,7 +90,6 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-green-50 to-emerald-50 py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Hero Text */}
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                 Turn Kitchen Scraps into <span className="text-green-600">Garden Gold</span>
@@ -111,7 +107,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Hero Image */}
             <div className="flex justify-center">
               <img 
                 src="https://via.placeholder.com/400x300?text=Compost+Bins" 
@@ -289,4 +284,4 @@ export default function Home() {
             {/* Social/RSS */}
             <div>
               <h4 className="font-semibold mb-4 text-white">Follow</h4>
-              <ul className="space-y-2 text-sm
+              <ul className="space-y-
