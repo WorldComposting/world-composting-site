@@ -289,4 +289,4 @@ export default function Home() {
             {/* Social/RSS */}
             <div>
               <h4 className="font-semibold mb-4 text-white">Follow</h4>
-              <ul className="space-y-2 text-
+              <ul className="space-y-2 text-sm
